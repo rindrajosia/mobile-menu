@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps:
 6. Sixth, Open index.html page with browser
 
 
-## See a live demo [Here](https://silly-hoover-313a7e.netlify.app/)
+## See a live demo [Here](https://raw.githack.com/rindrajosia/mobile-menu/feature/index.html)
 
 ## Show your support
 Give a ⭐️ if you like this project!
