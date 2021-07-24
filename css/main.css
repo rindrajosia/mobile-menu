@@ -18,16 +18,9 @@ hr {
   width: 80vw;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-  background-color: #3c3a39;
-  color: white;
-}
 
-#desktop-nav, #desktop-nav ul {
+
+#desktop-nav, #desktop-nav ul, .desktop {
   display: none;
 }
 
@@ -48,6 +41,52 @@ header {
 .menu-bars i {
   width: 18px;
   height: 12px;
+  color: white;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  padding: 10px;
+  background-color: #3c3a39;
+  color: white;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+a.icon .active {
+  display: block;
+}
+
+a.icon .close {
+  display: none;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #3c3a39;
   color: white;
 }
 
@@ -417,6 +456,14 @@ textarea {
 }
 
 @media all and (min-width: 720px) {
+  .desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #3c3a39;
+  color: white;
+  }
   .top-social {
     flex-direction: column;
     position: absolute;
