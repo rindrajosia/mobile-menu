@@ -464,6 +464,10 @@ textarea {
     color: white;
   }
 
+  .topnav {
+    display: none;
+  }
+
   .top-social {
     flex-direction: column;
     position: absolute;
