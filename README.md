@@ -1,6 +1,8 @@
 # TSE-Trials Mobile Menu
 Practice review skills on a small project
 
+![Algorithm schema](./screenshot.png)
+
 ## Built with
 
   * Javascript
