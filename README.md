@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps:
 6. Sixth, Open index.html page with browser
 
 
-## See a live demo [Here](https://raw.githack.com/rindrajosia/mobile-menu/feature/index.html)
+## See a live demo [Here](https://rawcdn.githack.com/rindrajosia/mobile-menu/6ed01f33899883cefdc2ee8c80ec623025903070/index.html)
 
 ## Show your support
 Give a ⭐️ if you like this project!
